@@ -6,10 +6,5 @@ import random
 week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 mood = ['happy', 'sad', 'energetic', 'calm', 'happy', 'over-joyed', 'tired']
 
-mood_rand = mood
-random.shuffle(mood)
-
 for i in range(0, 7, 1):
-    print(f"Today is: " + str(week[i]) + " and you were: " +  (mood_rand[i]))
-
-
+    print(f"Today is: " + str(week[i]) + " and you were: " +  random.choice(mood))
