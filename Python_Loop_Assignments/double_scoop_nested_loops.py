@@ -15,8 +15,3 @@ for i in days:
         print(f"Today is {i} in the {x}, you feel {random.choice(moods)}")    
         
         
-for i in days:
-    for x in times:
-        for m in moods:
-            print(i, x, m)
-       
